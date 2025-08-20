@@ -1,16 +1,23 @@
 # ISO20022_php_wiki
-An open source wiki for the ISO20022 standard and how to use it (mainly) with PHP. The general information outlined here is standard-specific and thus can be used with any language.
+An open source wiki for the ISO20022 standard and how to use it from a programmer's point of view.
+
+Development phases 
+1. Gather information [CURRENT]
+  During this phase information will just be gathered in a somewhat not organized matter. We hope it will still be very helpful.
+2. Organise, Format & publish to git-pages [FUTURE]
+  
+
 
 ## Goal and purpose
   The purpose of this wiki is to provide information about the ISO20022 financial messaging standard, the Universal financial industry message scheme (UNIFI) and its use (mainly) with PHP. 
-  The goal of this repository is to provide:
-- an open source resource pool of information about ISO20022
-- a list of PHP libraries that support it and information of their status
-- a list of external resources on the topic
-- host the source to the docs and generate a website from it
+  The goal of this repository is to:
+- provide an open resource pool of information about ISO20022 and more specifically for transactions management messages (pain, camt)
+- encourage Open Source information sharing
+- provide a list of PHP libraries that support it and information of their status
+- provide a list of external resources on the topic
+- host the source of all those resources and generate a website from it
 
-
-  **This is currently a work in progress so bare with me. Also please submit any missing information as PRs if you have it.**
+  **This is currently a work in progress so bare with me. Also please submit any missing information as PRs if you have it. **
 
 # List of PHP libraries
 - https://github.com/php-sepa-xml/php-sepa-xml (active)
@@ -29,4 +36,16 @@ _Is your package missing? Send a PR!_
  
  [EPC SEPA notes](http://www.europeanpaymentscouncil.eu/index.cfm/sepa-credit-transfer/iso-20022-message-standards/)
 
+ [SEPA CORE DIRECT DEBIT SCHEME CUSTOMER-TO-BANK IMPLEMENTATION GUIDELINES](http://www.europeanpaymentscouncil.eu/index.cfm/knowledge-bank/epc-documents/sepa-direct-debit-core-scheme-customer-to-bank-implementation-guidelines-version-90/epc130-08-sdd-core-c2b-ig-v90-approvedpdf/)
+
+ [InstdAmt vs. EqvtAmt](https://wiki.xmldation.com/General_Information/ISO_20022/Difference_between_InstdAmt_and_EqvtAmt)
+ 
+ [CreditorIdentifier explanation](http://www.sepaforcorporates.com/sepa-direct-debits/sepa-creditor-identifier/)
+ 
+ [SEPA Extended Character Set reference](http://www.sepahungary.hu/uploads/files/EPC217-08%20Best%20Practices%20-SEPA%20Requirements%20for%20Character%20Set.pdf)
+ 
+ [ECB SEPA gateway page](http://www.ecb.europa.eu/paym/retpaym/html/index.en.html)
+ 
+ [SEPA for Corporates Blog](http://www.sepaforcorporates.com/)
+ 
 _You happen to have another resource? Send a PR!_
