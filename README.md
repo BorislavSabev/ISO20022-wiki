@@ -1,6 +1,6 @@
 # ISO20022 Wiki
 An open source wiki for the ISO20022 standard and how to use it from a programmer's point of view.
-
+ 
 Development phases 
 1. Gather information [CURRENT]
   During this phase information will just be gathered in a somewhat not organized matter. We hope it will still be very helpful.
@@ -17,11 +17,9 @@ Development phases
 - provide a list of external resources on the topic
 - host the source of all those resources and generate a website from it
 
-  **This is currently a work in progress so bare with me. Also please submit any missing information as PRs if you have it. **
-
 # List of PHP libraries
 - https://github.com/php-sepa-xml/php-sepa-xml (active)
-- https://github.com/digitick/php-sepa-xml (defunct and points to the one above)
+- https://github.com/digitick/php-sepa-xml (defunct and replaced by the one above)
 
 _Is your package missing? Send a PR!_
 
